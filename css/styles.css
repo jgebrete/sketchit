@@ -1,0 +1,78 @@
+#canvasBoard {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border: solid black 5px;
+    border-radius: 20px;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+body {
+    display: block;
+    min-height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(rgb(50, 159, 248), rgb(124, 235, 146));
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgb(18, 113, 101);
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+select:hover {
+    cursor: pointer;
+    border-color: rgb(12, 153, 134)
+}
+
+input[type="color"] {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.stdbutton {
+    font-size: 20px;
+    background-color: rgb(10, 247, 215);
+    border: solid black 3px;
+    border-radius: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stdbutton:hover {
+    background-color:rgb(8, 186, 162);
+}
+
+/* Make layout stack on smaller screens */
+@media (max-width: 600px) {
+    .controls {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    canvas {
+        width: 95vw;
+        height: auto;
+    }
+}

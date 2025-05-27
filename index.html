@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Picasso</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/paintbrush.png" type="image/png">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <h1>Sketch It!</h1>
+    <canvas id="canvasBoard"></canvas>
+    <div class="controls">
+        <div>
+            <label for="shapeField">Shape:</label>
+            <select id="shapeField">
+                <option value="Free Draw">Free Draw</option>
+                <option value="Line">Line</option>
+                <option value="Rectangle">Rectangle</option>
+                <option value="Circle">Circle</option>
+                <option value="Triangle">Triangle</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="colorField">Colour:</label>
+            <input id="colorField" type="color">
+        </div>
+
+        <div>
+            <input id="clearButton" class="stdbutton" type="button" value="Clear">
+            <input id="undoButton" class="stdbutton" type="button" value="Undo">
+        </div>
+    </div>
+</body>
+
+</html>
