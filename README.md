@@ -50,7 +50,7 @@ open index.html
  
 Or open `index.html` with [VS Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). No build tools or dependencies required.
  
-Sketch It! is also hosted on [GitHub Pages](https://jgebrete.github.io/sketchit).
+[Sketch It!](https://jgebrete.github.io/sketchit) is also hosted on GitHub Pages.
  
 ---
  
